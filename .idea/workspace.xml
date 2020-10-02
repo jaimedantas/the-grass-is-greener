@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="905dc3f1-99d9-4b1e-b75b-a78d7a2b9d73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jaimedantas/com/engine/Selector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaimedantas/com/engine/Selector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jaimedantas/com/engine/SelectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jaimedantas/com/engine/SelectorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601602757104</updated>
-      <workItem from="1601602759063" duration="696000" />
+      <workItem from="1601602759063" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="initial development">
       <created>1601602797465</created>
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601602982619</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code cleaning and Java doc">
+      <created>1601603640170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601603640170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,13 +104,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial development" />
     <MESSAGE value="added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+    <MESSAGE value="Code cleaning and Java doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code cleaning and Java doc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="143" y="-768" key="CommitChangelistDialog2" timestamp="1601602982334">
-      <screen x="-41" y="-768" width="1366" height="768" />
+    <state x="143" y="-745" key="CommitChangelistDialog2" timestamp="1601603973157">
+      <screen x="-41" y="-745" width="1366" height="745" />
     </state>
-    <state x="143" y="-768" key="CommitChangelistDialog2/-41.-768.1366.768/0.0.1280.800@-41.-768.1366.768" timestamp="1601602982334" />
+    <state x="143" y="-745" key="CommitChangelistDialog2/-41.-745.1366.745/0.23.1280.777@-41.-745.1366.745" timestamp="1601603973157" />
+    <state x="143" y="-768" key="CommitChangelistDialog2/-41.-768.1366.768/0.0.1280.800@-41.-768.1366.768" timestamp="1601603639822" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom" timestamp="1601603475708">
       <screen x="-41" y="-768" width="1366" height="768" />
     </state>
@@ -123,9 +129,9 @@
       <screen x="-41" y="-768" width="1366" height="768" />
     </state>
     <state width="1324" height="202" key="GridCell.Tab.0.right/-41.-768.1366.768/0.0.1280.800@-41.-768.1366.768" timestamp="1601603475707" />
-    <state x="242" y="-656" key="Vcs.Push.Dialog.v2" timestamp="1601602984245">
+    <state x="242" y="-656" key="Vcs.Push.Dialog.v2" timestamp="1601603643507">
       <screen x="-41" y="-768" width="1366" height="768" />
     </state>
-    <state x="242" y="-656" key="Vcs.Push.Dialog.v2/-41.-768.1366.768/0.0.1280.800@-41.-768.1366.768" timestamp="1601602984245" />
+    <state x="242" y="-656" key="Vcs.Push.Dialog.v2/-41.-768.1366.768/0.0.1280.800@-41.-768.1366.768" timestamp="1601603643507" />
   </component>
 </project>

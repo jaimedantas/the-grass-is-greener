@@ -6,11 +6,24 @@ import java.util.Random;
 
 public class Selector {
 
+    /**
+     * Returns one of the two numbers randomly
+     * @param a integer
+     * @param b integer
+     * @return a or b
+     */
     public int pickOne(int a, int b){
         Random r = new Random();
         return r.nextBoolean() ? a : b;
     }
 
+    /**
+     * Returns two randomly selected numbers out of three
+     * @param a integer
+     * @param b integer
+     * @param c integer
+     * @return an array with two of the inputs
+     */
     public int[] pickTwo(int a, int b, int c){
         int selection;
         List<Integer> currentInput = new ArrayList<>();

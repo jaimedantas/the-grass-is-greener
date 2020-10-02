@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 public class SelectorTest {
 
-    final static long SAMPLES = 500000;
+    final static long EXECUTIONS = 500000;
 
     Course A;
     Course B;
@@ -36,7 +36,7 @@ public class SelectorTest {
         long countCourseA = 0,countCourseB = 0, countCourseC = 0;
         Selector selector = new Selector();
 
-        for (int i = 0; i < SAMPLES; i++) {
+        for (int i = 0; i < EXECUTIONS; i++) {
             firstTwoChoices = selector.pickTwo(A.getCode(), B.getCode(), C.getCode());
             secondTwoChoices.add(A.getCode());
             secondTwoChoices.add(B.getCode());
@@ -58,7 +58,7 @@ public class SelectorTest {
             }
             secondTwoChoices.clear();
         }
-        long denominator = SAMPLES*2; //since the student picks two courses
+        long denominator = EXECUTIONS * 2; //since the student picks two courses
 
         probabilityA = Calculator.divide(countCourseA, denominator);
         probabilityB = Calculator.divide(countCourseB, denominator);

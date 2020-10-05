@@ -18,6 +18,6 @@ assertEquals(new BigDecimal("0.633"), probabilityC);
 ```
 Notice that all three are identical to `2/3` when we have a large number of executions, defined by the variable `EXECUTIONS`. The class
 `Selector` is responsible for randomly selecting our courses. <br />
-The test was made with 500000 executions, and the precision is one decimal place.
+The test was made with 500000 executions, and the precision is three decimal places.
 
 

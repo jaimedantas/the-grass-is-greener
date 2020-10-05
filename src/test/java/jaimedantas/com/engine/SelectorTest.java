@@ -58,15 +58,14 @@ public class SelectorTest {
             }
             secondTwoChoices.clear();
         }
-        long denominator = EXECUTIONS * 2; //since the student picks two courses
 
-        probabilityA = Calculator.divide(countCourseA, denominator);
-        probabilityB = Calculator.divide(countCourseB, denominator);
-        probabilityC = Calculator.divide(countCourseC, denominator);
+        probabilityA = Calculator.divide(countCourseA, EXECUTIONS);
+        probabilityB = Calculator.divide(countCourseB, EXECUTIONS);
+        probabilityC = Calculator.divide(countCourseC, EXECUTIONS);
 
-        assertEquals(new BigDecimal("0.333"), probabilityA);
-        assertEquals(new BigDecimal("0.333"), probabilityB);
-        assertEquals(new BigDecimal("0.333"), probabilityC);
+        assertEquals(new BigDecimal("0.666"), probabilityA);
+        assertEquals(new BigDecimal("0.666"), probabilityB);
+        assertEquals(new BigDecimal("0.666"), probabilityC);
     }
 }
 

@@ -12,9 +12,9 @@ This solution was written in Java using [JUnit](https://junit.org/junit5/) tests
 under the class `SelectorTest`. 
 For the assert of the test, we have these three probabilities:
 ```java   
-assertEquals(new BigDecimal("0.633"), probabilityA);
-assertEquals(new BigDecimal("0.633"), probabilityB);
-assertEquals(new BigDecimal("0.633"), probabilityC);
+assertEquals(new BigDecimal("0.666"), probabilityA);
+assertEquals(new BigDecimal("0.666"), probabilityB);
+assertEquals(new BigDecimal("0.666"), probabilityC);
 ```
 Notice that all three are identical to `2/3` when we have a large number of executions, defined by the variable `EXECUTIONS`. The class
 `Selector` is responsible for randomly selecting our courses. <br />

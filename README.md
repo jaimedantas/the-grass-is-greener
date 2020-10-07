@@ -1,4 +1,4 @@
-# Is the the grass greener on the other side?
+# Is the grass greener on the other side?
 Here you can find out whether this common expression is fake or not. 
 I created this code for using it in the solution of a probability problem proposed by 
 Dr. Ruth Urner on one of her assignments for the Machine Learning Course at YU. 

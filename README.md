@@ -1,4 +1,9 @@
 # Is the grass greener on the other side?
+[![Build Status](https://travis-ci.org/jaimedantas/the-grass-is-greener.svg?branch=main)](https://travis-ci.org/jaimedantas/the-grass-is-greener.svg?branch=main)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=the-grass-is-greener&metric=alert_status)](https://sonarcloud.io/dashboard?id=the-grass-is-greener)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=the-grass-is-greener&metric=coverage)](https://sonarcloud.io/dashboard?id=the-grass-is-greener)
+
+
 Here you can find out whether this common expression is fake or not. 
 I created this code for using in the solution of a probability problem proposed by 
 Dr. Ruth Urner on one of her assignments for the Machine Learning Course at YU. 

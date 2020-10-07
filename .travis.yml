@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "jaimedantas"
     token:
-      secure: "3e12c18f387a32a8955d2fb54c8a8674c52e4595" # encrypted value of your token
+      secure: "travis encrypt fcd678b5ca3a6d50f48f88335f4bd8608fdf3fae" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis

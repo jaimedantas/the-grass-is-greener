@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 public class SelectorTest {
 
-    final static long EXECUTIONS = 500000;
+    final static long EXECUTIONS = 15000000;
 
     Course A;
     Course B;
